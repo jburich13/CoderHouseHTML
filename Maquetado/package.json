@@ -1,0 +1,11 @@
+{
+  "name": "maquetado",
+  "version": "1.0.0",
+  "description": "Proyecto Coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "Prueba1"
+  },
+  "author": "Juan Burich",
+  "license": "ISC"
+}
