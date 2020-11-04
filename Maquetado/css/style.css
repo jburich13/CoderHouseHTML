@@ -1,6 +1,5 @@
 html{
     font-size: 62.5%;
-
 }
 
 @keyframes opacidad{
@@ -75,9 +74,7 @@ ol li{
     font-family: 'Roboto Slab', serif;
 }
 
-#bread{
-    background-color: #B1D0E2;
-}
+
 
 ol li:hover a{
     font-weight: bold;
@@ -180,92 +177,37 @@ footer p{
 #airplane{
     position: absolute;
     width: 30rem;
-    left: 0rem;
-    bottom: -0.5rem;
+    bottom: 0rem;
+    top:-1rem;
     height: 21rem;
     z-index: 1;
     margin:1rem;
     transition: 2s;
+    overflow: visible;
 }
+
 
 #columna{
     position: relative;
-    padding-top: 3.5rem;
-    flex-wrap: nowrap;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
     padding-left: 0;
-    overflow:hidden;
-    height: 22rem;
-    margin-bottom: 5rem;
-    
+    height: 21rem;
+    background-image: url("../src/icons/landing1.png");
+    background-repeat: repeat-x;
+    background-position: center;
 }
+
+
 
 #columna:hover #airplane{
     transform: translateX(300%);
 }
-#landing {
-    transform: rotate(90deg);
 
-}
 
-#landing1 {
-    transform: rotate(90deg);
 
-}
-#landing2{
-    transform: rotate(90deg);
 
-}
-#landing3{
-    transform: rotate(90deg);
-}
-#landing4{
-    transform: rotate(90deg);
-}
-#landing5{
-    transform: rotate(90deg);
-}
-#landing6{
-    transform: rotate(90deg);
-}
-#landing7{
-    transform: rotate(90deg);
-}
-#landing8{
-    transform: rotate(90deg);
-}
-#landing9{
-    transform: rotate(90deg);
-}
-#landing10{
-    transform: rotate(90deg);
-}
-#landing11{
-    transform: rotate(90deg);
-}
-#landing12{
-    transform: rotate(90deg);
-}
-#landing13{
-    transform: rotate(90deg);
-}
-#landing14{
-    transform: rotate(90deg);
-}
-#landing15{
-    transform: rotate(90deg);
-}
-#landing16{
-    transform: rotate(90deg);
-}
-#landing17{
-    transform: rotate(90deg);
-}
-#landing18{
-    transform: rotate(90deg);
-}
-#landing19{
-    transform: rotate(90deg);
-}
 
 
 
@@ -399,30 +341,50 @@ footer p{
 }
 
 
+
+
 @media (max-width: 576px) {
-   
- }
 
-@media (min-width: 768px) {
-    #card__Azul{
-      
- }
+    .frase{
+        font-size:2rem;
+    }
+    .textoIndex{
+        font-size: 1.5rem;
+    }
+    .subtitulo{
+        font-size: 2.5rem;
+    }
+    .queSomos{
+        margin-top: 1rem;
+        transition: none;
+    }
 
-@media (min-width: 992px) { 
-    #card__Azul{
-       
+    .queSomos:hover{
+        transform: scale(1);
+    }
+
+    #columna{
+        display: none;
+    }
+    #airplane{
+        display: none;
     }
 }
 
-
-@media (min-width: 1200px) { 
-    #card__Azul{
-      
+@media (max-width: 768px) {
+    #columna{
+        display: none;
     }
- }
+    #airplane{
+        display: none;
+    }
+}
 
+@media (min-width: 992px) {}
 
-
+@media (min-width: 1200px) {
+    
+}
 
 
 
