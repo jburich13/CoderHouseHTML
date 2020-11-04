@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="icon" href="src/icons/travelling.png">
+    <link rel="icon" href="../src/icons/travelling.png">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>TuDestino: España</title>
 </head>
@@ -106,19 +106,37 @@
   <section>
     <h1 class="text-center destinos__Subtitulo animate__animated animate__tada">Personajes destacados</h1>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-2 destinos__CardPersonajes tarjeta align-self-center">
-          <img class=" card-img rounded-circle " src="../src/img/PersonajesEspaña/franco.jpg" alt="">
-          <div class="card-body">
-            <h3 class="card-title text-center">Francisco Franco</h3>
-            <div class="row ">
-              <div class="col align-self-center">
-                <a href="./destinos/destinoEspaña.html" class="btn boton">¿Y este quien es?</a>
+      <div class="row justify-content-around">
+
+        <div class="col-3 destinos__CardPersonajes tarjeta">
+          <img class=" card-img rounded-circle " src="../src/img/PersonajesEspaña/franco.jpg" id="img_Personajes" alt="">
+          <div class="row d-flex "></div>
+              <h3 class="card-title text-center" id="titulo_Card">Francisco Franco</h3>
+              <div class="row d-flex justify-content-center">
+                <a href="https://es.wikipedia.org/wiki/Francisco_Franco" class="btn boton" target="_blank">¿Y este quien es?</a>
               </div>
-            </div>
-          </div>
         </div>
+          
+        <div class="col-3 destinos__CardPersonajes tarjeta align-self-center">
+          <img class=" card-img rounded-circle " src="../src/img/PersonajesEspaña/sergio_ramos.jpeg" id="img_Personajes" alt="">
+          <div class="row d-flex "></div>
+              <h3 class="card-title text-center" id="titulo_Card">Sergio Ramos</h3>
+              <div class="row d-flex justify-content-center">
+                <a href="https://es.wikipedia.org/wiki/Sergio_Ramos" class="btn boton" target="_blank">¿Y este quien es?</a>
+              </div>
+        </div>
+
+        <div class="col-3 destinos__CardPersonajes tarjeta align-self-center">
+          <img class=" card-img rounded-circle " src="../src/img/PersonajesEspaña/pau.jpg"id="img_Personajes" alt="">
+          <div class="row d-flex "></div>
+              <h3 class="card-title text-center" id="titulo_Card">Pau Gasol</h3>
+              <div class="row d-flex justify-content-center">
+                <a href="https://es.wikipedia.org/wiki/Pau_Gasol" class="btn boton" target="_blank">¿Y este quien es?</a>
+              </div>
+        </div>
+
       </div>
+
     </div>
   </section>
 

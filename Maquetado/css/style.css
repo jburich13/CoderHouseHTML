@@ -96,6 +96,7 @@ ol li:hover a{
 
 /* FOOTER */
 footer{
+    margin-top: 2rem;
     background-color: #98C1D9;
 }
 
@@ -348,10 +349,6 @@ footer p{
 /* Destinos */
 
 
-
-
-/*CONTACTO*/
-
 .destinos__Carousel{
     width: 100%;
     height: 85rem;
@@ -378,16 +375,27 @@ footer p{
 
 .destinos__Card{
     padding:2rem;
-    margin:3rem;
+    
 }
 
 #card__Azul{
     background-color: #98C1D9;
 }
+#img_Personajes{
+    width: 26rem;
+    height: 30rem;
+}
 
 
 .destinos__CardPersonajes{
     background-color:#EE6C4D ;
+    padding:3rem;
+    border-radius: 5px;
+}
+
+#titulo_Card{
+    margin-top: 1rem;
+    font-size: 3rem;
 }
 
 
