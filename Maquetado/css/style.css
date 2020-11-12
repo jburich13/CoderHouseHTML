@@ -8,7 +8,6 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Zilla Slab', serif;
   font-weight: lighter;
   background-color: #E0FBFC; }
 
@@ -155,18 +154,7 @@ footer {
   #columna:hover #airplane {
     transform: translateX(300%); }
 
-.preguntas {
-  margin: 1rem;
-  font-weight: bold; }
 
-.respuesta {
-  margin: 1rem; }
-
-.qa_container {
-  font-size: 2rem;
-  margin: 2rem;
-  background-color: #EE6C4D;
-  border-radius: 6px; }
 
 .qa_airplane {
   width: 15rem;
@@ -182,9 +170,6 @@ footer {
   margin: 2rem;
   transition: 0.5s;
   font-family: 'Roboto Slab', serif;
-  animation-name: opacidad;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .tarjeta:hover {
     transform: scale(1.1); }
@@ -208,13 +193,11 @@ footer {
   display: block;
   text-align: center; }
 
-.destinos__Carousel {
-  width: 100%;
-  height: 85rem; }
+
 
 .destinos__Subtitulo {
   font-family: 'Roboto Slab', serif;
-  margin-top: 2rem;
+  margin-top: 10rem;
   font-size: 5rem; }
 
 .destinos__CardSubtitulo {
@@ -245,7 +228,7 @@ footer {
   margin-top: 1rem;
   font-size: 3rem; }
 
-@media (max-width: 576px) {
+  @media (max-width: 575.98px) {
   .frase {
     font-size: 2rem; }
   .textoIndex {
@@ -260,10 +243,180 @@ footer {
   #columna {
     display: none; }
   #airplane {
-    display: none; } }
+    display: none; } 
+  
+  
+  
+  
+  }
 
-@media (max-width: 768px) {
+  
+
+
+/*QA*/
+.container_Preguntas{
+  margin-top: 10rem
+  
+  
+ 
+}
+
+.preguntas {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3rem;
+  margin: 1rem;
+  font-weight: bold; }
+
+.respuesta {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  margin: 1rem; }
+
+.qa_container {
+  padding: 2rem;
+  margin: 2rem;
+  background-color: #EE6C4D;
+  border-radius: 6px; }
+.icons_QA{
+  width: 20rem;
+}
+
+#card_derecha{
+  display: flex;
+  justify-content: flex-end;
+}
+#card_izquierda{
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+/*CONTACTO*/
+form label{
+  font-size: 2rem;
+}
+#form{
+  margin-top: 8rem;
+  margin-left: 1.5rem;
+}
+
+#input_Forms{
+  margin-top: 2rem;
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
   #columna {
     display: none; }
   #airplane {
-    display: none; } }
+    display: none; } 
+  .preguntas{
+    font-size: 1rem;
+    }
+  .respuesta{
+    font-size: 0.5rem;
+  }
+  #card_derecha{
+    justify-content: center;
+  }
+  #card_izquierda{
+    justify-content: center;
+  }
+
+  .qa_container{
+    padding: 1rem;
+  }
+
+  .destinos__Subtitulo{
+    font-size: 2rem;
+  }
+
+
+  footer p{
+    font-size: 1rem;
+  }
+
+  
+  }
+
+  @media (max-width: 768px) and (max-width: 991.98px){
+    .preguntas{
+      font-size: 1.5rem;
+      }
+
+      .respuesta {
+        font-size: 1rem;
+      }
+  
+      #card_derecha{
+        justify-content: center;
+        margin: 1rem;
+      }
+      #card_izquierda{
+        justify-content: center;
+        margin: 1rem;
+      }
+
+      #iconos_Footer{
+        flex-flow: row;
+      }
+
+      footer p{
+        font-size: 1rem;
+      }
+      .cont {
+        padding: 4rem; }
+
+      .destinos__Card {
+        padding: 2rem; }
+      
+
+      .iconsFooter{
+        height: 2rem;
+        width: 2rem;
+      }
+      .destinos__Subtitulo{
+        font-size: 4rem;
+      }
+
+      .destinos__CardSubtitulo {
+        margin-bottom: 0.5rem;
+        font-size: 2rem;}
+      
+      .destinos__CardTexto {
+        font-size: 1.5rem;}
+     
+      
+    
+    
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px){
+    .preguntas{
+      font-size: 2rem;
+      }
+
+    .respuesta {
+      font-size: 1.5rem;
+    }
+    #iconos_Footer{
+      flex-flow: row;
+    }
+    footer p{
+      font-size: 1.5rem;
+    }
+
+    .destinos__Subtitulo{
+      margin-top: 10rem;
+    }
+
+    
+  
+  
+  
+  }
+
+  @media (min-width: 1200px){
+    
+    }
